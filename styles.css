@@ -1,2 +1,70 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+section {
+    margin-left: 20px;
+}
+
+.name {
+    text-align: left;
+    font-family: Montserrat;
+    font-size: small;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-family: Fraunces;
+}
+
+.new {
+    color: hsl(158, 36%, 37%);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.old {
+    font-size: x-small;
+    padding-left: 10px;
+}
+
+button {
+    width: 255px;
+    height: 30px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-color: hsl(30, 38%, 92%);
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product {
+    width: 320px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 20px 20px 0 0;
+}
